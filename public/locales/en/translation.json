@@ -1,0 +1,11 @@
+{
+    "homeTitle": "The key to Fine Dinning",
+    "homeSubTitle": "Chase the new flavor",
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "menu": "Menu",
+        "awards": "Awards",
+        "contact": "Contact"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "homeTitle": "La llave de una cena fina",
+    "homeSubTitle": "Persigue el nuevo sabor",
+    "navbar": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "menu": "Menu",
+        "awards": "Premios",
+        "contact": "Contacto"
+    }
+}

@@ -3,11 +3,13 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 import images from '../../constants/images'
+import { useTranslation } from "react-i18next";
 
 import './Navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <nav class="app__navbar">
@@ -15,7 +17,7 @@ const Navbar = () => {
         <img src={images.gericht} alt="app logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
+        <li className="p__opensans"><a href="#home">{t("navbar.home")}</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
         <li className="p__opensans"><a href="#menu">Menu</a></li>
         <li className="p__opensans"><a href="#awards">Awards</a></li>
